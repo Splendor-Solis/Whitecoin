@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+
+
+
+
+/* Global Container */
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+header {
+    min-height: 40rem;
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)), 
+        url(img/bitcoin.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+
+
+/* Navbar */
+
+
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    list-style: none;
+}
+
+
+.navbar .logo {
+    flex: 4;
+}
+
+
+.navbar li {
+    flex: 1;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+     font-size: 1rem;
+     font-weight: 700;
+ }
+
+
+ .navbar .logo>a {
+     font-size: 1.5rem;
+     font-weight: 300;
+ }
+
+  
+span {
+    color: #ff793f;
+}
+
+
+
+
+ /* Hero section */
+
+ .hero {
+     padding-top: 6rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+ }
+
+ .hero h1 {
+     color: white;
+     font-size: 2.7rem;
+     font-weight: 800;
+     text-transform: capitalize;
+ }
+
+ .buttons {
+     padding-top: 2.5rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
+
+ .btn-1 {
+     border: none;
+     color: white;
+     font-size: 1rem;
+     background-color: #ff793f;
+     font-weight: 600;
+     border-radius: 1px;
+     padding: 1.2rem 4rem;
+ }
+
+ .btn-2 {
+    border: none;
+    color: white;
+    font-size: 1rem;
+    background-color: #ff793f;
+    font-weight: 600;
+    border-radius: 1px;
+    padding: 1.2rem 4rem;
+    margin-left: 1rem;
+}
+
+/* Introduction section */
+
+.introduction {
+    padding-top: 18rem;
+    min-height: 40rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.box3 h3 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #1a1b24;
+
+}
+
+
+.box3 p {
+    font-size: 1.1rem;
+    font-weight: 100;
+    padding-top: 5rem;
+    line-height: 2;
+    padding-bottom: 3rem;
+    color: #1a1b24;
+}
+
+
+.box4 img {
+    height: 22rem;
+    padding-left: 8rem;
+}
+
+.btn-4 {
+    border: none;
+    color: white;
+    border-radius: 1px;
+    font-size: 1rem;
+    background-color: #1a1b24;
+    padding: 1.2rem 4rem;
+    font-weight: 600;
+}
+
+/* Profile Section with Grid */
+
+.profile {
+    margin-top: 18rem;
+    background-color: #1a1b24;
+    min-height: 40rem;
+    padding-top: 10rem;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     grid-auto-rows: (20rem, auto);
+     grid-gap: 2rem;
+}
+
+.box1 {
+    text-align: center;
+    grid-column: 1 /4;
+}
+
+.box1 h3 {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+
+}
+
+.box2 {
+    padding-top: 5rem;
+    text-align: center;
+    background-color: #12121b;
+    min-height: 15rem;
+}
+
+
+.box2 i {
+    color: #ff7a00;
+}
+
+
+.box2 h5 {
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 300;
+}
+
+
+.box2 p {
+    padding-top: 1rem;
+    color: #5d5d61;
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+
+/* Content section */
+
+
+.content {
+    min-height: 30rem;
+    padding-top: 15rem;
+
+}
+
+.flexbox{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h3 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+hr {
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #12121b;
+    width: 50%;
+    min-height: 38rem;
+
+}
+
+p{
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    margin-top: 2rem;
+    padding-bottom: .5rem;
+}
+
+
+.form-control {
+    width: 70%;
+    height: 3.2rem;
+    background: transparent;
+}
+
+
+
+
+
+.submit {
+    border: none;
+    color: white;
+    background-color: #ff7a00;
+    padding: 1.2rem 3.2rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+
+
+
+/* Final section */
+
+
+.final-section {
+    margin-top: 20rem;
+    background: #1a1b24;
+    min-height: 35rem;
+
+}
+
+
+.flex-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box6 {
+    padding-top: 10rem;
+    margin-left: 4rem;
+}
+
+
+
+
+.box6 h4 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+.box6 p {
+    color: #5d5d61;
+    line-height: .5;
+}
+
+
+/* Footer section */
+
+
+footer {
+    padding-top: 5rem;
+    background: #12121b;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+.flex2 p {
+    font-size: 1.1rem;
+}
+
+
+.icons i {
+    padding-top: 1.5rem;
+    color: #ff7a00;
+    margin-left: .5rem;
+}
+
+
